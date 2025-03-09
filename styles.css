@@ -2,62 +2,48 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background: #111;
+    color: #fff;
+    text-align: center;
 }
 
 header {
-    background: #333;
-    color: white;
-    padding: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
+    padding: 1rem 0.1rem;
 }
 
 .hero {
-    text-align: center;
-    padding: 5rem 1rem;
-    background: url('abattoirs_used.jpg') no-repeat center center/cover;
-    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2rem 2rem 4rem rgba(0,0,0,0.7);
 }
 
-.btn {
-    background: #ff4500;
-    color: white;
-    padding: 0.5rem 1rem;
+nav {
+    background: #222;
+    padding: 2rem;
+}
+
+nav a {
+    color: #fff;
     text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
 }
 
-.grid {
-    display: flex;
-    gap: 1rem;
-    padding: 2rem;
+.container {
+    padding: 1rem 1rem;
 }
 
-.item {
-    background: #ddd;
+.card {
+    background: #333;
     padding: 2rem;
-    flex: 1;
-    text-align: center;
+    margin: 2rem auto;
+    max-width: 70rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10rem rgba(255,255,255,0.2);
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: white;
+    background: #222;
+    padding: 2rem;
+    margin-top: 4rem;
 }
